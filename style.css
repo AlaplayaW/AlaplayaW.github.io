@@ -2,6 +2,10 @@
     border: blue 1px dotted;
 }
 
-.image {
-    
+body {
+    background-color: brown;
+}
+
+.navbar {
+    background-color: brown;
 }

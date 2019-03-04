@@ -1,13 +1,62 @@
+@font-face {
+    font-family: "horror";
+    src: url("/font/DoubleFeature20.ttf");
+}
+
 *{
     border: blue 1px dotted;
+}
+
+.logo1 img{
+    text-shadow: 1px 0 0 purple,
+    -1px 0 0 purple, 
+    0 1px 0 purple, 
+    0 -1px 0 purple, 
+    1px 1px purple, 
+    -1px -1px 0 purple, 
+    1px -1px 0 purple, 
+    -1px 1px 0 purple;
 }
 
 body {
     background-color: brown;
 }
 
-.navbar {
+h1{
+    font-family: "horror", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: green;
+    text-shadow: 8px 0 0 purple,
+                -8px 0 0 purple, 
+                0 8px 0 purple, 
+                0 -8px 0 purple, 
+                4px 4px purple, 
+                -4px -4px 0 purple, 
+                4px -4px 0 purple, 
+                -4px 4px 0 purple;
+    transform: rotate(-10deg);
+    margin-bottom: 45px;
+    letter-spacing: 6px;
+}
+
+.fa-hamburger{
+    color: green;
+    text-shadow: 2px 0 0 purple,
+    -2px 0 0 purple, 
+    0 2px 0 purple, 
+    0 -2px 0 purple, 
+    2px 2px purple, 
+    -2px -2px 0 purple, 
+    2px -2px 0 purple, 
+    -2px 2px 0 purple;
+}
+
+.nav-item {
     background-color: green;
+    border-radius: 10px;
+    margin: 2px auto;
+    width: 120px;
 }
 .article {
     background-color: rgba(255, 255, 255, 0.3);

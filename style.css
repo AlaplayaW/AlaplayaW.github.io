@@ -3,43 +3,48 @@
     src: url("font/DoubleFeature20.ttf");
 }
 
+@font-face {
+    font-family: "LethalSlime";
+    src: url("font/LethalSlime.ttf");
+}
+
 *{
     border: blue 1px dotted;
 }
 
 .logo1 img{
-    text-shadow: 1px 0 0 purple,
-    -1px 0 0 purple, 
-    0 1px 0 purple, 
-    0 -1px 0 purple, 
-    1px 1px purple, 
-    -1px -1px 0 purple, 
-    1px -1px 0 purple, 
-    -1px 1px 0 purple;
+    text-shadow: 1px 0 0 #C70507,
+    -1px 0 0 #C70507, 
+    0 1px 0 #C70507, 
+    0 -1px 0 #C70507, 
+    1px 1px #C70507, 
+    -1px -1px 0 #C70507, 
+    1px -1px 0 #C70507, 
+    -1px 1px 0 #C70507;
 }
 
 body {
     background-color: white;
 }
 
-
 h1{
     font-family: "horror", sans-serif;
     font-size: 70px;
     text-align: center;
-    color: green;
-    text-shadow: 8px 0 0 purple,
-                -8px 0 0 purple, 
-                0 8px 0 purple, 
-                0 -8px 0 purple, 
-                4px 4px purple, 
-                -4px -4px 0 purple, 
-                4px -4px 0 purple, 
-                -4px 4px 0 purple;
+    color: #046B09;
+    text-shadow: 8px 0 0 #C70507,
+                -8px 0 0 #C70507, 
+                0 8px 0 #C70507, 
+                0 -8px 0 #C70507, 
+                4px 4px #C70507, 
+                -4px -4px 0 #C70507, 
+                4px -4px 0 #C70507, 
+                -4px 4px 0 #C70507;
     transform: rotate(-10deg);
     margin-bottom: 45px;
     letter-spacing: 6px;
 }
+
 
 .fa-hamburger{
     color: green;
@@ -62,4 +67,10 @@ h1{
 .article {
     background-color: rgba(255, 255, 255, 0.3);
 
+}
+
+.titre-article{
+    background: -webkit-gradient(linear, left top, left bottom, from(#85A917), to(#CED80B));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

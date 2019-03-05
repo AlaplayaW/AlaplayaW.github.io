@@ -8,10 +8,6 @@
     src: url("font/LethalSlime.ttf");
 }
 
-*{
-    border: blue 1px dotted;
-}
-
 .logo1 img{
     text-shadow: 1px 0 0 purple,
     -1px 0 0 purple, 
@@ -24,9 +20,12 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(110, 15, 15);
 }
 
+.container{
+    width: 90%;
+}
 
 h1{
     font-family: "horror", sans-serif;
@@ -46,7 +45,6 @@ h1{
     letter-spacing: 6px;
 }
 
-
 .fa-hamburger{
     color: green;
     text-shadow: 2px 0 0 purple,
@@ -58,19 +56,22 @@ h1{
     2px -2px 0 purple, 
     -2px 2px 0 purple;
 }
+
 .bigtitle {
     background-color: rgb(221, 190, 16);
 }
+
 .navbar {
     background-color: rgba(0, 0, 0, 1);
 }
-.nav-item {
 
+.nav-item {
     border-radius: 10px;
     border: 2px solid green;
     margin: 2px auto;
     width: 120px;
 }
+
 .article {
     background-color: rgb(255, 255, 255);
 }

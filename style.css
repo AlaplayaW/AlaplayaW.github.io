@@ -47,30 +47,30 @@ h1{
 
 .fa-hamburger{
     color: green;
-    text-shadow: 2px 0 0 purple,
-    -2px 0 0 purple, 
-    0 2px 0 purple, 
-    0 -2px 0 purple, 
-    2px 2px purple, 
-    -2px -2px 0 purple, 
-    2px -2px 0 purple, 
-    -2px 2px 0 purple;
+    text-shadow: 2px 0 0 yellow,
+    -2px 0 0 yellow, 
+    0 2px 0 yellow, 
+    0 -2px 0 yellow, 
+    2px 2px yellow, 
+    -2px -2px 0 yellow, 
+    2px -2px 0 yellow, 
+    -2px 2px 0 yellow;
 }
 
 .bigtitle {
-    background-color: rgb(221, 190, 16);
+    background-color: rgb(214, 214, 20);
 }
 
 .navbar {
     background-color: rgba(0, 0, 0, 1);
 }
-
+/*
 .nav-item {
     border-radius: 10px;
     border: 2px solid green;
     margin: 2px auto;
     width: 120px;
-}
+}*/
 
 .article {
     background-color: rgb(255, 255, 255);

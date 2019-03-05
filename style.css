@@ -1,6 +1,6 @@
 @font-face {
     font-family: "horror";
-    src: url("/font/DoubleFeature20.ttf");
+    src: url("font/DoubleFeature20.ttf");
 }
 
 *{
@@ -19,8 +19,9 @@
 }
 
 body {
-    background-color: brown;
+    background-color: white;
 }
+
 
 h1{
     font-family: "horror", sans-serif;

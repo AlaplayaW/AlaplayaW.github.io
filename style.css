@@ -23,10 +23,6 @@ body {
     background-color: rgb(110, 15, 15);
 }
 
-.container{
-    width: 90%;
-}
-
 h1{
     font-family: "horror", sans-serif;
     font-size: 70px;
@@ -74,4 +70,8 @@ h1{
 
 .article {
     background-color: rgb(255, 255, 255);
+}
+
+aside{
+    background: blue;
 }

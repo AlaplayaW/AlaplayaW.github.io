@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid col-12 col-md-10">
         <!-- header -->
         <header>
             <div class="row bigtitle align-items-end justify-content-between">
@@ -28,6 +28,7 @@
                     <img class="w-100" src="http://www.nanarland.com/_images/header-monster-img.png" alt="">
                 </div>
             </div>
+            <!-- nav-bar -->
             <nav class="row navbar navbar-expand-lg navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-hamburger fa-2x"></i>
@@ -41,7 +42,7 @@
                             <a class="nav-link" href="#">Zombies</a>
                         </li>
                         <li class="nav-item mr-2">
-                            <a class="nav-link" href="#">Sharks</a>
+                            <a class="nav-link" href="#">Sharks</a> 
                         </li>
                         <li class="nav-item mr-2">
                             <a class="nav-link" href="#">Ninja</a>
@@ -58,51 +59,57 @@
             </nav>
         </header>
         <!-- main -->
-        <main>
-            <artice class="article row p-4">
-                <div class="affiche col-md-2 d-none d-md-block">
-                    <a data-toggle="modal" data-target="#article1" href=""><img class="w-100 sticky-top pt-3" src="image/leLacDesMortsVivants.jpg" alt=""></a>
-                </div>
-                <div class="col-12 col-md-10">
-                    <div class="row">
-                        <h2 class="col-10 m-auto">Le lac de mort vivants</h2>
-                        <p class="note col-2 m-auto">8/10</p>
+        <main class="row">
+            <content class="col-12 col-md-9">
+                <artice class="article row p-2">
+                    <div class="affiche col-md-2 d-none d-md-block">
+                        <a data-toggle="modal" data-target="#article1" href=""><img class="w-100 sticky-top pt-3" src="image/leLacDesMortsVivants.jpg" alt=""></a>
                     </div>
-                    <div class="row">
-                        <p class="created col-12">5 Mars 2018 par Kevin</p>
-                    </div>
-                    <div class="row">
-                        <p>Dans un village Français, 10 ans aprés la Seconde Guerre Mondiale, les cadavres d'anciens
-                            soldats Nazis ressurgissent du fond d'un lac avec pour seul but de devorer tout ce qui
-                            bouge.
-                            Les villageois, apres une vague de disparrition commencent à s armer et partent a la
-                            recherche d'un coupable. Au milieu de cette explosion de gore et de femmes aussi habillées
-                            que LadyD lors de son
-                            autopsie, une histoire d'amour nait entre un Zombie et l'une des villageoise.
-                            Laquelle est morte en accouchant d’une fille qui a désormais dix ans. Le zombie vient donc
-                            régulièrement rendre visite à la gamine et la protège de ses copains morts-vivants...
-                            La petite orpheline et le zombie, deux êtres profondément incompris qui cherchent leur
-                            place dans la société qui les rejette... Mouais, en fait tout cela se terminera au
-                            lance-flammes.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-8">
-                            <p>Posté dans : Zombies | Tagué : Horreur, Zombies</p>
+                    <div class="col-12 col-md-10">
+                        <div class="row">
+                            <h2 class="col-10 m-auto">Le lac de mort vivants</h2>
+                            <p class="note col-2 m-auto">8/10</p>
                         </div>
-                        <div class="col-12 col-md-4 text-center my-auto align-text-middle">
-                            <p>4 Commentaires</p>
+                        <div class="row">
+                            <p class="created col-12">5 Mars 2018 par Kevin</p>
                         </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="article1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ukLcHrmR4bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="row">
+                            <p>Dans un village Français, 10 ans aprés la Seconde Guerre Mondiale, les cadavres d'anciens
+                                soldats Nazis ressurgissent du fond d'un lac avec pour seul but de devorer tout ce qui
+                                bouge.
+                                Les villageois, apres une vague de disparrition commencent à s armer et partent a la
+                                recherche d'un coupable. Au milieu de cette explosion de gore et de femmes aussi habillées
+                                que LadyD lors de son
+                                autopsie, une histoire d'amour nait entre un Zombie et l'une des villageoise.
+                                Laquelle est morte en accouchant d’une fille qui a désormais dix ans. Le zombie vient donc
+                                régulièrement rendre visite à la gamine et la protège de ses copains morts-vivants...
+                                La petite orpheline et le zombie, deux êtres profondément incompris qui cherchent leur
+                                place dans la société qui les rejette... Mouais, en fait tout cela se terminera au
+                                lance-flammes.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+                                <p>Posté dans : Zombies | Tagué : Horreur, Zombies</p>
+                            </div>
+                            <div class="col-12 col-md-4 text-center my-auto align-text-middle">
+                                <p>4 Commentaires</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="article1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ukLcHrmR4bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
-            </artice>
+                </artice>
+            </content>
+            <aside class="col-md-3 d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas expedita reprehenderit maxime incidunt aliquam? Enim vitae repudiandae laboriosam obcaecati ratione sunt, sapiente iste at itaque laudantium necessitatibus a atque eveniet?</p>
+            </aside>
         </main>
         <!-- footer -->
         <footer class="row">
@@ -123,6 +130,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
         <!-- fin script js bootstrap  -->
+    </div>
 </body>
-
 </html>

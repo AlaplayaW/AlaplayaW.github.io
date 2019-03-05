@@ -3,9 +3,9 @@
     src: url("font/DoubleFeature20.ttf");
 }
 
-*{
+/*{
     border: blue 1px dotted;
-}
+}*/
 
 .logo1 img{
     text-shadow: 1px 0 0 purple,
@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(110, 15, 15);
 }
 
 
@@ -28,18 +28,19 @@ h1{
     font-size: 70px;
     text-align: center;
     color: green;
-    text-shadow: 8px 0 0 purple,
-                -8px 0 0 purple, 
-                0 8px 0 purple, 
-                0 -8px 0 purple, 
-                4px 4px purple, 
-                -4px -4px 0 purple, 
-                4px -4px 0 purple, 
-                -4px 4px 0 purple;
+    text-shadow: 8px 0 0 black,
+                -8px 0 0 black, 
+                0 8px 0  black, 
+                0 -8px 0 black, 
+                4px 4px black, 
+                -4px -4px 0 black, 
+                4px -4px 0 black, 
+                -4px 4px 0 black;
     transform: rotate(-10deg);
     margin-bottom: 45px;
     letter-spacing: 6px;
 }
+
 
 .fa-hamburger{
     color: green;
@@ -52,14 +53,18 @@ h1{
     2px -2px 0 purple, 
     -2px 2px 0 purple;
 }
-
+.bigtitle {
+    background-color: rgb(221, 190, 16);
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 1);
+}
 .nav-item {
-    background-color: green;
     border-radius: 10px;
+    border: 2px solid green;
     margin: 2px auto;
     width: 120px;
 }
 .article {
-    background-color: rgba(255, 255, 255, 0.3);
-
+    background-color: rgb(255, 255, 255);
 }

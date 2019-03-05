@@ -13,33 +13,34 @@
 }
 
 .logo1 img{
-    text-shadow: 1px 0 0 #C70507,
-    -1px 0 0 #C70507, 
-    0 1px 0 #C70507, 
-    0 -1px 0 #C70507, 
-    1px 1px #C70507, 
-    -1px -1px 0 #C70507, 
-    1px -1px 0 #C70507, 
-    -1px 1px 0 #C70507;
+    text-shadow: 1px 0 0 purple,
+    -1px 0 0 purple, 
+    0 1px 0 purple, 
+    0 -1px 0 purple, 
+    1px 1px purple, 
+    -1px -1px 0 purple, 
+    1px -1px 0 purple, 
+    -1px 1px 0 purple;
 }
 
 body {
     background-color: white;
 }
 
+
 h1{
     font-family: "horror", sans-serif;
     font-size: 70px;
     text-align: center;
-    color: #046B09;
-    text-shadow: 8px 0 0 #C70507,
-                -8px 0 0 #C70507, 
-                0 8px 0 #C70507, 
-                0 -8px 0 #C70507, 
-                4px 4px #C70507, 
-                -4px -4px 0 #C70507, 
-                4px -4px 0 #C70507, 
-                -4px 4px 0 #C70507;
+    color: green;
+    text-shadow: 8px 0 0 black,
+                -8px 0 0 black, 
+                0 8px 0  black, 
+                0 -8px 0 black, 
+                4px 4px black, 
+                -4px -4px 0 black, 
+                4px -4px 0 black, 
+                -4px 4px 0 black;
     transform: rotate(-10deg);
     margin-bottom: 45px;
     letter-spacing: 6px;
@@ -57,20 +58,19 @@ h1{
     2px -2px 0 purple, 
     -2px 2px 0 purple;
 }
-
+.bigtitle {
+    background-color: rgb(221, 190, 16);
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 1);
+}
 .nav-item {
-    background-color: green;
+
     border-radius: 10px;
+    border: 2px solid green;
     margin: 2px auto;
     width: 120px;
 }
 .article {
-    background-color: rgba(255, 255, 255, 0.3);
-
-}
-
-.titre-article{
-    background: -webkit-gradient(linear, left top, left bottom, from(#85A917), to(#CED80B));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-color: rgb(255, 255, 255);
 }

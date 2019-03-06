@@ -4,8 +4,19 @@
 }
 
 @font-face {
-    font-family: "LethalSlime";
-    src: url("font/LethalSlime.ttf");
+    font-family: "beurk";
+    src: url("font/Beurk___.ttf");
+}
+
+.logo1 img{
+    text-shadow: 1px 0 0 purple,
+    -1px 0 0 purple, 
+    0 1px 0 purple, 
+    0 -1px 0 purple, 
+    1px 1px purple, 
+    -1px -1px 0 purple, 
+    1px -1px 0 purple, 
+    -1px 1px 0 purple;
 }
 
 body {
@@ -16,7 +27,7 @@ h1{
     font-family: "horror", sans-serif;
     font-size: 70px;
     text-align: center;
-    color: #28A745;
+    color: green;
     text-shadow: 8px 0 0 black,
                 -8px 0 0 black, 
                 0 8px 0  black, 
@@ -30,8 +41,25 @@ h1{
     letter-spacing: 6px;
 }
 
+.title-article{
+    color: green;
+    font-family: "beurk", sans-serif;
+}
+
+.user-note{
+    font-size: 1.25em;
+    font-weight: normal;
+    font-family: Arial;
+    border: 1px solid black;
+}
+
+.rate{
+    color: grey;
+    font-size: 10px;
+}
+
 .fa-hamburger{
-    color: #28A745;
+    color: green;
     text-shadow: 2px 0 0 yellow,
     -2px 0 0 yellow, 
     0 2px 0 yellow, 
@@ -68,6 +96,10 @@ h1{
 
 .article {
     background-color: rgb(255, 255, 255);
+}
+
+.texte-article, .footer-article{
+    border: rgb(110, 15, 15) 1px solid;
 }
 
 aside{

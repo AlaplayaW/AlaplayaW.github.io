@@ -50,14 +50,11 @@ h1{
     font-family: "beurk", sans-serif;
 }
 
-.note{
-    border: 1px black solid;
-}
-
 .user-note{
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: normal;
     font-family: Arial;
+    border: 1px solid black;
 }
 
 .rate{
@@ -94,7 +91,6 @@ h1{
 
 .article {
     background-color: rgb(255, 255, 255);
-    
 }
 
 .texte-article, .footer-article{

@@ -42,7 +42,7 @@ h1{
 }
 h3{
     font-family: "horror", sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
     color: green;
     text-shadow: 8px 0 0 black,
@@ -53,8 +53,8 @@ h3{
                 -4px -4px 0 black, 
                 4px -4px 0 black, 
                 -4px 4px 0 black;
-    transform: rotate(-10deg);
-    margin-bottom: 45px;
+    
+   
     letter-spacing: 6px;
 }
 

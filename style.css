@@ -4,9 +4,13 @@
 }
 
 @font-face {
-    font-family: "LethalSlime";
-    src: url("font/LethalSlime.ttf");
+    font-family: "beurk";
+    src: url("font/Beurk___.ttf");
 }
+
+/* *{
+    border: blue 1px dotted;
+} */
 
 .logo1 img{
     text-shadow: 1px 0 0 purple,
@@ -41,6 +45,26 @@ h1{
     letter-spacing: 6px;
 }
 
+.title-article{
+    color: green;
+    font-family: "beurk", sans-serif;
+}
+
+.note{
+    border: 1px black solid;
+}
+
+.user-note{
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+.rate{
+    color: grey;
+    font-size: 10px;
+}
+
 .fa-hamburger{
     color: green;
     text-shadow: 2px 0 0 yellow,
@@ -70,6 +94,11 @@ h1{
 
 .article {
     background-color: rgb(255, 255, 255);
+    
+}
+
+.texte-article, .footer-article{
+    border: rgb(110, 15, 15) 1px solid;
 }
 
 aside{

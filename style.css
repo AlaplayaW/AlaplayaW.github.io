@@ -55,20 +55,17 @@ h1{
     letter-spacing: 6px;
 }
 h3{
-    font-family: "horror", sans-serif;
-    font-size: 26px;
+    font-family: "king", sans-serif;
     text-align: center;
     color: green;
-    text-shadow: 8px 0 0 black,
-                -8px 0 0 black, 
-                0 8px 0  black, 
-                0 -8px 0 black, 
-                4px 4px black, 
-                -4px -4px 0 black, 
-                4px -4px 0 black, 
-                -4px 4px 0 black;
-    
-   
+    text-shadow: 2px 0 0 black,
+                -2px 0 0 black, 
+                0 2px 0  black, 
+                0 -2px 0 black, 
+                1px 1px black, 
+                -1px -1px 0 black, 
+                1px -1px 0 black, 
+                -1px 1px 0 black;
     letter-spacing: 6px;
 }
 
@@ -105,15 +102,7 @@ h3{
 }
 
 .fa-hamburger{
-    color: #28A745;
-    text-shadow: 2px 0 0 yellow,
-    -2px 0 0 yellow, 
-    0 2px 0 yellow, 
-    0 -2px 0 yellow, 
-    2px 2px yellow, 
-    -2px -2px 0 yellow, 
-    2px -2px 0 yellow, 
-    -2px 2px 0 yellow;
+    color: rgb(114, 155, 80);
 }
 
 .bigtitle {

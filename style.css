@@ -130,12 +130,12 @@ form > .btn:hover {
     color : white;
 }
 
-
 .nav-item {
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1.5px solid rgb(114, 155, 80);
-    margin: 2px auto;
-    width: 120px;
+}
+.nav-item > a {
+    font-size: 1.2rem;
 }
 
 .article {

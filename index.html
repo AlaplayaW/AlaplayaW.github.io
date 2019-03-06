@@ -58,6 +58,7 @@
             </nav>
         </header>
         <!-- main -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
         <main class="row">
             <content class="col-12 col-md-9">
                 <artice class="article row">
@@ -65,16 +66,14 @@
                         <a data-toggle="modal" data-target="#article1" href=""><img class="w-100 sticky-top pt-3" src="image/leLacDesMortsVivants.jpg" alt=""></a>
                     </div>
                     <div class="col-md-10">
-                                    <div class="row">
-                                        <div class="col-10">
-                                            <h2 class="pt-2 title-article">Le lac des mort vivants</h2>
-                                            <p class="rate col-12">5 Mars 2018 par <a href="">Kevin</a></p>
-                                        </div>
-                                        <div class="user-note col-2 my-auto note text-center">
-                                            <p class="note m-auto">8<span class="rate">/10</span></p>
-                                        </div>
-                                    </div>
                         <div class="row">
+                            <div class="col-10">
+                                <h2 class="pt-2 title-article">Le lac des mort vivants</h2>
+                                <p class="created col-12">5 Mars 2018 par <a href="">Kevin</a></p>
+                            </div>
+                            <div class="user-note col-2 my-auto note text-center">
+                                <p class="note m-auto">8<span class="rate">/10</span></p>
+                            </div>
                         </div>
                         <div class="row texte-article p-2 text-justify">
                             <p>Dans un petit village français, à la fin de la guerre, des résistants liquident une patrouille allemande et jettent les corps dans le lac voisin (enfin, disons plutôt une grosse mare). Manque de bol, ce lac avait été le lieu de rites sataniques au Moyen-Âge et dix ans après la guerre, les soldats devenus morts-vivants se réveillent pour aller dévorer des baigneuses qui ont la mauvaise idée d’aller nager nues dans l’étang. Comme à force plus personne ne vient se baigner dans le lac, les zombies envahissent le village pour aller faire leur courses.</p>
@@ -103,7 +102,7 @@
                         </div>
                         <div class="row footer-article p-1">
                             <div class="col-12 col-md-4 text-center align-middle my-auto">
-                                <p>Posté dans : <a href=""><span class="badge badge-pill badge-secondary">Zombies</span></a></p>
+                                <p>Categories : <a href=""><span class="badge badge-pill badge-secondary">Zombies</span></a></p>
                             </div>
                             <div class="col-12 col-md-4 text-center align-middle my-auto ">
                                 <p>Tags : <a href=""><span class="badge badge-pill badge-info">Horreur</span></a><a href=""><span class="badge badge-pill badge-info">Zombies</span></a></p>
@@ -139,6 +138,24 @@
         </footer>
     </div>
         <!-- script js bootstrap -->
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 40) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

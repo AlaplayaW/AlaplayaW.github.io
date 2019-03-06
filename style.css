@@ -8,6 +8,19 @@
     src: url("font/Beurk___.ttf");
 }
 
+@font-face {
+    font-family: 'AllanBold';
+    src: url('font/allan-bold-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'king';
+    src: url('font/king.ttf');
+}
+
+
 .logo1 img{
     text-shadow: 1px 0 0 purple,
     -1px 0 0 purple, 
@@ -21,6 +34,7 @@
 
 body {
     background-color: rgb(110, 15, 15);
+    font-family: 'king', Arial, verdana;
 }
 
 h1{
@@ -51,11 +65,22 @@ h1{
     font-weight: normal;
     font-family: Arial;
     border: 1px solid black;
+    background: green;
+    color: white;
 }
 
 .rate{
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+.created{
     color: grey;
     font-size: 10px;
+}
+
+.separation{
+    background: white;
 }
 
 .fa-hamburger{
@@ -83,7 +108,7 @@ h1{
 .navbar-nav > li > a:hover {
     background-color: #28A745;
     border-radius: 5px;
-    color : white;
+    color : white ;
 }
 
 /*
@@ -104,4 +129,20 @@ h1{
 
 aside{
     background: #ffffff;
+}
+
+
+#myBtn {
+    display: none;
+    background-image: url('image/scrolltotop.jpg');
+    position: fixed;
+    bottom: 20px;
+
+    left: 0px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    padding-top: 30px;
+    padding-right: 11px;
+    border-radius: 4px;
 }

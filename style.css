@@ -155,6 +155,7 @@ aside{
 }
 aside a{
     color: rgb(110, 15, 15);
+    padding: 5px 0 5px 0;
 }
 aside a:hover {
     text-decoration: none;

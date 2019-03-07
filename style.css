@@ -19,29 +19,33 @@
     font-family: 'king';
     src: url('font/king.ttf');
 }
-
+@font-face {
+    font-family: 'simson';
+    src: url('font/simson.ttf');
+}
 body {
     background-color: rgb(156, 40, 50);
     font-family: 'king', Arial, verdana;
 }
 
 h1{
-    font-family: "horror", sans-serif;
-    font-size: 70px;
+    font-family: "simson", sans-serif;
+    font-size: 80px;
     text-align: center;
     color: rgb(114, 155, 80);
-    text-shadow: 8px 0 0 black,
-                -8px 0 0 black, 
-                0 8px 0  black, 
-                0 -8px 0 black, 
-                4px 4px black, 
-                -4px -4px 0 black, 
-                4px -4px 0 black, 
-                -4px 4px 0 black;
+    text-shadow: 4px 0 0 black,
+                -4px 0 0 black, 
+                0 4px 0  black, 
+                0 -4px 0 black, 
+                2px 2px black, 
+                -2px -2px 0 black, 
+                2px -2px 0 black, 
+                -2px 2px 0 black;
     transform: rotate(-10deg);
     margin-bottom: 45px;
     letter-spacing: 6px;
 }
+
 h3{
     font-family: "king", sans-serif;
     text-align: center;

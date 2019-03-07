@@ -72,6 +72,7 @@ h3{
 .title-article{
     color: green;
     font-family: "beurk", sans-serif;
+    font-size: 40px;
 }
 
 .user-note{
@@ -130,7 +131,6 @@ form > .btn:hover {
     color : white;
 }
 
-
 .nav-item {
     border-radius: 10px;
     border: 1.5px solid rgb(114, 155, 80);
@@ -149,7 +149,6 @@ form > .btn:hover {
 aside{
     background: #ffffff;
 }
-
 
 #myBtn {
     display: none;

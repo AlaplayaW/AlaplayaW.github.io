@@ -23,6 +23,7 @@
     font-family: 'simson';
     src: url('font/simson.ttf');
 }
+
 body {
     background-color: rgb(156, 40, 50);
     font-family: 'king', Arial, verdana;
@@ -72,7 +73,7 @@ h3{
     1px -1px 0 black, 
     -1px 1px 0 black;
     font-family: "beurk", sans-serif;
-    font-size: 40px;
+    font-size: 6vm;
 }
 /*
  HACK: Remove the default beahovir of button i
@@ -103,6 +104,7 @@ button:focus {
 
 .text-article img{
     box-shadow: 2px 2px 2px rgb(110, 15, 15);
+    width: 100%;
 }
 
 .fa-hamburger{
